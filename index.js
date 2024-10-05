@@ -13,6 +13,6 @@ while (numeroUsuario !== numeroAleatorio) {
     } else if (numeroUsuario < numeroAleatorio) {
         console.log("O número é maior.");
     } else {
-        console.log(`Parabéns! Você acertou o número ${numeroAleatorio} em ${tentativas} tentativas.`);
+        console.alert(`Parabéns! Você acertou o número ${numeroAleatorio} em ${tentativas} tentativas.`);
     }
 }
